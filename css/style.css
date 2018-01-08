@@ -1,0 +1,112 @@
+body {
+	background-color: #43ABC9;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	background: #093145;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+li{
+	background: #fff;
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+}
+
+.fa-plus {
+	float: right;
+}
+
+
+#container	{
+/*	background-color: lightgrey;
+*/	width: 20%;
+	margin:0 auto;
+	border: 2px solid black;
+	margin-top: 100px;
+
+}
+
+.completed{
+	color: grey;
+	text-decoration: line-through;
+}
+
+
+/* delete button */
+span{
+	background: #43ABC9;
+	height: 35px;
+	width: 0;
+	text-align: center;
+	margin-right: 20px;
+	width: 0;
+	opacity: 0;
+	transition: 0.2s linear;
+	display: inline-block;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+
+input{
+	font-size: 20px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	width: 100%;
+/*	padding: 10px 10px 10px 10px;
+*/  box-sizing: border-box;
+	border: 2px solid rgba(0,0,0,0);
+
+}
+
+input:focus{
+	background-color: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+
+
+/*
+input {
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+#container {
+	width: 360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}*/
